@@ -88,7 +88,7 @@ return array(
 	'png'	=>	array('image/png',  'image/x-png'),
 	'tiff'	=>	'image/tiff',
 	'tif'	=>	'image/tiff',
-	'css'	=>	array('text/css', 'text/plain'),
+	'style.css'	=>	array('text/style.css', 'text/plain'),
 	'html'	=>	array('text/html', 'text/plain'),
 	'htm'	=>	array('text/html', 'text/plain'),
 	'shtml'	=>	array('text/html', 'text/plain'),

@@ -272,10 +272,10 @@ if ( ! function_exists('link_tag'))
 	 * @param	string	type
 	 * @param	string	title
 	 * @param	string	media
-	 * @param	bool	should index_page be added to the css path
+	 * @param	bool	should index_page be added to the style.css path
 	 * @return	string
 	 */
-	function link_tag($href = '', $rel = 'stylesheet', $type = 'text/css', $title = '', $media = '', $index_page = FALSE)
+	function link_tag($href = '', $rel = 'stylesheet', $type = 'text/style.css', $title = '', $media = '', $index_page = FALSE)
 	{
 		$CI =& get_instance();
 		$link = '<link ';
